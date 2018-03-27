@@ -9,7 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var DocumentsComponent = /** @class */ (function () {
     function DocumentsComponent() {
-        this.pagetitle = "Document Dashboard";
+        this.pageTitle = "Document Dashboard";
         this.documents = [
             {
                 title: "My First Doc",
@@ -38,7 +38,8 @@ var DocumentsComponent = /** @class */ (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'documents',
-            templateUrl: 'documents.component.html'
+            templateUrl: 'documents.component.html',
+            styleUrls: ['documents.component.css']
         })
     ], DocumentsComponent);
     return DocumentsComponent;
