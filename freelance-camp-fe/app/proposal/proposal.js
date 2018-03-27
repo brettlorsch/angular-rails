@@ -1,11 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Proposal = /** @class */ (function () {
-    function Proposal(id, customer, protfolio_url, tools, estimated_hours, hourly_rate, weeks_to_complete, client_email) {
-        if (protfolio_url === void 0) { protfolio_url = 'http://'; }
+    function Proposal(id, customer, portfolio_url, tools, estimated_hours, hourly_rate, weeks_to_complete, client_email) {
+        if (portfolio_url === void 0) { portfolio_url = 'http://'; }
         this.id = id;
         this.customer = customer;
-        this.protfolio_url = protfolio_url;
+        this.portfolio_url = portfolio_url;
         this.tools = tools;
         this.estimated_hours = estimated_hours;
         this.hourly_rate = hourly_rate;
@@ -15,4 +15,5 @@ var Proposal = /** @class */ (function () {
     return Proposal;
 }());
 exports.Proposal = Proposal;
+// 15, 'Abc Company', 'http://portfolio.jordanhudgens.com', 'Ruby on Rails', 150, 120, 15, 'jordan@devcamp.com'
 //# sourceMappingURL=proposal.js.map
